@@ -11,12 +11,18 @@ The key generator will prompt you for a file name.
 
 Enter a unique name like:
 
+```tsql
 id_rsa_personal
 id_rsa_work
-
+```
+```tsql
 ls ~/.ssh
+```
 you will see below documents: 
-id_rsa_personal   id_rsa_personal.pub	  id_rsa_work   id_rsa_work.pub   
+
+```tsql
+id_rsa_personal   id_rsa_personal.pub	  id_rsa_work   id_rsa_work.pub 
+```  
 
 
 
@@ -76,16 +82,17 @@ Host github-username2
 
 
 #### 4.Add ssh private keys to your agent:
-
+```powershell
 $ ssh-add ~/.ssh/oanhnn_private_key
 $ ssh-add ~/.ssh/superman_private_key
-
+```
 
 
 #### 5.Test your connection
-
+```powershell
 $ ssh -T git@github.com
 $ ssh -T git@github-superman
+```
 With each command, you may see this kind of warning, type yes:
 
 ```powershell
