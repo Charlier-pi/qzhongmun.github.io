@@ -1,6 +1,7 @@
 ## Using Multiple SSH Keys for Multiple GitHub Accounts
 ###  How to manage SSH keys on GitHub accounts
-</br>
+
+
 #### 1. Generating the SSH keys
 
 ```tsql
@@ -26,8 +27,6 @@ id_rsa_personal   id_rsa_personal.pub	  id_rsa_work   id_rsa_work.pub
 ```  
 
 
-
-</br>
 #### 2. Adding a new SSH key to your GitHub account
 
 Now that we have the SSH keys let us link them with the Github account.
@@ -44,7 +43,6 @@ Follow the steps below to add an SSH key to your GitHub account:
 3. Finally, click the Add SSH key button.
 
 
-</br>
 #### 3. Creating and updating the SSH config file
 Next, let us bring it all together in a config file. There are two GitHub accounts - the personal and work accounts. The personal account is the local account, and work is the global account.
 
@@ -81,14 +79,14 @@ Host github-username2
    IdentityFile ~/.ssh/id_rsa_work
 ```
 
-</br>
+
 #### 4. Add ssh private keys to your agent:
 ```powershell
 $ ssh-add ~/.ssh/oanhnn_private_key
 $ ssh-add ~/.ssh/superman_private_key
 ```
 
-</br>
+
 #### 5. Test your connection
 ```powershell
 $ ssh -T git@github.com
@@ -110,14 +108,14 @@ Hi superman! You've successfully authenticated, but GitHub does not provide shel
 ```
 
 
-</br>
 #### 6. Now all are set, just clone your repositories
 
 Here we need to use SSH link and change this link like below:
 ```powershell
 $ git clone git@username:programname.git 
 ```
-</br>
+
+
 ***
 ```powershell
 https://gist.github.com/oanhnn/80a89405ab9023894df7
