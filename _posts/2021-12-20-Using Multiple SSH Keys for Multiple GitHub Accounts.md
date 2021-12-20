@@ -48,20 +48,20 @@ Next, let us bring it all together in a config file. There are two GitHub accoun
 
 The SSH config file is accessed by running this command:
 
-```powershell
+```
 ~/.ssh/config
 ```
 
 If it exists, you can edit it, or else it can be created using this command:
 
-```powershell
+```
 touch config
 nano config
 ```
 
 Update the config file by adding the following rules:
 
-```powershell
+```
 # Default github account: personal
 Host github-username1
    HostName github.com
@@ -81,20 +81,20 @@ Host github-username2
 
 
 #### 4. Add ssh private keys to your agent:
-```powershell
+```
 $ ssh-add ~/.ssh/oanhnn_private_key
 $ ssh-add ~/.ssh/superman_private_key
 ```
 
 
 #### 5. Test your connection
-```powershell
+```
 $ ssh -T git@github.com
 $ ssh -T git@github-superman
 ```
 With each command, you may see this kind of warning, type yes:
 
-```powershell
+```
 The authenticity of host 'github.com (192.30.252.1)' can't be established.
 RSA key fingerprint is xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:
 Are you sure you want to continue connecting (yes/no)?
@@ -102,7 +102,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 If everything is OK, you will see these messages:
 
-```powershell
+```
 Hi oanhnn! You've successfully authenticated, but GitHub does not provide shell access.
 Hi superman! You've successfully authenticated, but GitHub does not provide shell access.
 ```
@@ -111,13 +111,13 @@ Hi superman! You've successfully authenticated, but GitHub does not provide shel
 #### 6. Now all are set, just clone your repositories
 
 Here we need to use SSH link and change this link like below:
-```powershell
+```
 $ git clone git@username:programname.git 
 ```
 
 
-***
-```powershell
+Referenced resources：
+```
 https://gist.github.com/oanhnn/80a89405ab9023894df7
 https://www.section.io/engineering-education/using-multiple-ssh-keys-for-multiple-github-accounts/
 ```
