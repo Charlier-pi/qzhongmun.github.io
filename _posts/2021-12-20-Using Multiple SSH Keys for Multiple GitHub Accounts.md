@@ -96,4 +96,8 @@ Hi superman! You've successfully authenticated, but GitHub does not provide shel
 ```
 
 #### Now all are set, just clone your repositories
+
+Here we need to use SSH link and change this link like below:
+```powershell
 $ git clone git@username:programname.git 
+```
