@@ -112,7 +112,7 @@ Hi superman! You've successfully authenticated, but GitHub does not provide shel
 
 Here we need to use SSH link and change this link like below:
 ```
-$ git clone git@username:programname.git 
+$ git clone git@username:username/programname.git 
 ```
 
 
