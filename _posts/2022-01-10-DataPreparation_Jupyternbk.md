@@ -26,3 +26,26 @@ Comparison of conda and pip
   
 </table>
 
+### Change the Jupyter start-up folder
+
+```
+// For Jupyter Notebook and JupyterLab < 3.0
+jupyter notebook --generate-config   // inpute in the terminal and open generated file
+
+/*
+Change 
+#c.NotebookApp.notebook_dir = ''
+to 
+c.NotebookApp.notebook_dir = '/start-up_folder_path'
+*/
+
+// JupyterLab >= 3, Jupyter Notebook Classic, and RetroLab
+jupyter server --generate-config // inpute in the terminal and open generated file
+
+/*
+Change 
+#c.ServerApp.root_dir = ''
+to 
+c.ServerApp.root_dir = '/start-up_folder_path'
+*/
+```
