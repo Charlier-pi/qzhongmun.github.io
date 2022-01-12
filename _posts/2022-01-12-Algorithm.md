@@ -1,10 +1,10 @@
 # Algorithm
-## stable matching
+## Stable Matching
 a stable matching is a perfect matching with no unstable pairs
 
 stable matchings doesn't always exit
 
-## unstable matching
+## Unstable Matching
 ```
 /*
 Def. Given a perfect matching M , hospital h and student s form an unstable pair if both: 
