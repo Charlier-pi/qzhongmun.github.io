@@ -1,4 +1,8 @@
 # Algorithm
+## stable matching
+a stable matching is a perfect matching with no unstable pairs
+
+stable matchings doesn't always exit
 
 ## unstable matching
 ```
