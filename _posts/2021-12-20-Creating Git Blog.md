@@ -1,4 +1,4 @@
-## Building a Free Blog with GitHub Pages in Minutes
+## Building Blog with GitHub
 ###  How to create blogs on GitHub account：GitHub Pages, Jekyll, Markdown
 
 #### Let’s get started
