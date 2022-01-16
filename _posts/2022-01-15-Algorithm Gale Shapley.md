@@ -1,4 +1,4 @@
-# Gale-Shapley
+# Algorithm Gale-Shapley
 
 ## Definition
 
