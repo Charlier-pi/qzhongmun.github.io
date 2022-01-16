@@ -1,4 +1,4 @@
-## Using Multiple SSH Keys for Multiple GitHub Accounts
+## Multiple SSH Keys for Multiple GitHub Accounts
 ###  How to manage SSH keys on GitHub accounts
 
 
