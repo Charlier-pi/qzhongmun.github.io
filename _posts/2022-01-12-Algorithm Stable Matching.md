@@ -1,4 +1,4 @@
-# Algorithm
+# Algorithm Stable Matching
 ## Stable Matching
 a stable matching is a perfect matching with no unstable pairs
 
