@@ -1,4 +1,4 @@
-## Jupyter Notebook
+## Prepare Data: Jupyter Notebook
 ### Install
 ```
 pip install notebook    // Install
