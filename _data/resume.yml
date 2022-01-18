@@ -3,12 +3,12 @@ header:
   name: Qian Zhong
   display_contact_info: true
   current_title: Master of Computer Science
-  intro: >
-    •	Use Selenium for test automation
-    •	Design test plans and tests cases based on business requirements 
-    •	Two and half years working experience in the computer science field
-    •	Experience in Git, Burpsuit, Python, JavaScript, CSS, Html, Vue, React
-    •	Execute basic security tests, such as XSS, SQL Injection and Command Injection
+  intro: 
+    - "•	Use Selenium for test automation"
+    - "•	Design test plans and tests cases based on business requirements" 
+    - "•	Two and half years working experience in the computer science field"
+    - "•	Experience in Git, Burpsuit, Python, JavaScript, CSS, Html, Vue, React"
+    - "•	Execute basic security tests, such as XSS, SQL Injection and Command Injection"
 
 contact:
   #address: 6 Colville St,St. John's, NL CA A1E 3J8   
@@ -20,7 +20,7 @@ sections:
   projects:     true
   skills:       true
   recognition:  true
-  associations: false
+  associations: true
   interests:    true
   links:        true
   social_links: false
