@@ -3,7 +3,7 @@ header:
   name: Qian Zhong
   display_contact_info: true
   current_title: Master of Computer Science
-  intro:
+  intro: >
     •	Use Selenium for test automation
     •	Design test plans and tests cases based on business requirements 
     •	Two and half years working experience in the computer science field
