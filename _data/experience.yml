@@ -1,5 +1,5 @@
 - company: "Memorial University"
-  logo: "/img/companylogos/memorial_logo.jpg"
+  logo: "/img/companylogos/memorial.jpeg"
   url: "https://www.mun.ca/"
   positions:
   - title: "Teaching Assistant"
@@ -22,7 +22,7 @@
 
 
 - company: "Sichuan Changhong Electric Co., Ltd"
-  logo: "/img/companylogos/changhong_logo.jpg"
+  logo: "/img/companylogos/changhong_logo.jpeg"
   url: "http://www.cccme.org.cn/shop/cccme2342/index.aspx"
   positions:
   - title: "Software Testing Engineer	"
