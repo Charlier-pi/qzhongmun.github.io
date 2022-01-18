@@ -14,26 +14,23 @@
   description: "6+ years experience with PowerShell and 2+ years of experience working with C# and .NET to build back end services integrating with 3rd party API's, web scraping, ETL processes and task automation."
 - skill: Tools & Technologies
   list:
-    - AWS Services (incl. Console, CloudWatch, EC2, S3, SES, SNS, Secrets Manager)
-    - Azure Data Studio (ADS)
-    - Confluence
-    - Chrome DevTools
-    - DBATools
+    - Python
+    - JavaScript
+    - CSS
+    - Html
+    - Vue
+    - React
+    - XSS
+    - SQL Injection 
+    - Command Injection 
+    - Selenium 
+    - Burpsuit
     - Docker
-    - Elasticsearch
     - Excel
-    - Fiddler
     - git
-    - Jira
     - Postman
-    - PowerShell
-    - RabbitMQ
-    - Red Gate Toolbelt
-    - Sisense BI Reporting
-    - SQL Server Management Studio (SSMS)
-    - SQL Server Profiler
-    - SQL Server Reporting Services (SSRS)
-    - SVN
-    - Upsource
+    - MySQL
+    - MongoDB
     - Visual Studio
     - VS Code
+    
