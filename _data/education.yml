@@ -1,9 +1,20 @@
-- degree: Cisco Networking certification program
-  uni: Riverside Community College
-  year: 2009 &mdash; 2013
+- degree: Master of Computer Science
+  uni: Memorial University
+  year: Sept. 2021 – Present 
   summary: >
-    Focused on computer science and Cisco networking. Completed the 4 course
-    Cisco Networking certification program, and received a certificate of completion.
+    Focused on computer science. Completed the 2 course
+    Subject |Course Title | Final Grade | GPA
+    COMP690 | Software Engineering	| 86	 | 4
+    COMP6908	| Database Tech & Applications |	87 | 4	
+    
+- degree: Bachelor of Computer Science
+  uni: Southwest Jiaotong University
+  year: Sept. 2013 – Jun. 2017
+  summary: >
+    Focused on computer science. 
+    Average Final Grade | GPA
+     82	 | 3.2
+
 
 #- degree: High School Diploma
 #  uni: Fountain Valley High School
