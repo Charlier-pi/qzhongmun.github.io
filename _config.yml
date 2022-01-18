@@ -1,6 +1,18 @@
-title: "Qian Zhong"
+theme: minima
+
+title: "Qian's Blog"
 author: "Qian Zhong"
-description: "Git, Javascript -- Front-end Developer" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+email: blog@chadbaldwin.net
+url: https://qzhongmun.github.io/
+
+timezone: UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+description: "Front-end Developer & Testing Engineer" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+rss: rss
+
+show_excerpts: false
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -15,12 +27,16 @@ linkedin_username: "QIAN ZHONG"
 #youtube_username: username
 #googleplus_username: +username
 
+social-links:
+  Resume:        https://chadbaldwin.net/resume
+  LinkedIn:      https://www.linkedin.com/in/qian-zhong-a5880422a
+  GitHub:        https://github.com/qzhongmun
+  Website:       https://qzhongmun.github.io/
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
 
-rss: rss
 
 kramdown:
   syntax_highlighter_opts:
@@ -34,9 +50,32 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
+header_pages:
+  - resume.html
+  - archive.html
+  - books.md
+  - bookmarks.md
+
+google_analytics: UA-185058308-1
+gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
+code_block_max_height: 500px
+
+home_post_limit: 5
+
+# The github repo that is to be used for looking up comments
+comments_repo: qzhongmun/qzhongmun.github.io
+
 defaults:
   - scope:
       path: ""
-      type: post
     values:
-      tags: Other
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags: Other # Add a default tag to all posts
