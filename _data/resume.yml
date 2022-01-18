@@ -10,9 +10,9 @@ header:
     development life cycle (SDLC) utilizing various project management methodologies including
     Agile, Scrum and Kanban. Efficient working both independently and in a team environment.
 contact:
-  #address: 123 Main St, Test, CA 91234
-  #phone: (123) 456-7890
-  email: resume@chadbaldwin.net
+  #address: 6 Colville St,St. John's, NL CA A1E 3J8   
+  #phone: +1(709) 219-6573
+  email: qzhong@mun.ca
 sections:
   experience:   true
   education:    true
@@ -24,11 +24,10 @@ sections:
   links:        true
   social_links: false
 social:
-  Website:    http://chadbaldwin.net
-  GitHub:     https://github.com/chadbaldwin
-  Twitter:    https://twitter.com/chad_baldwin
+  Website:    https://qzhongmun.github.io/
+  GitHub:     https://github.com/qzhongmun
   #Dribbble:  https://dribbble.com/chadbaldwin
   #FaceBook:  https://facebook.com/iamchadbaldwin
-  LinkedIn:   https://linkedin.com/in/chadbaldwin
+  LinkedIn:   https://www.linkedin.com/in/qian-zhong-a5880422a
   #Instagram: https://instagram.com/chad_baldwin
   #Medium:    https://medium.com/@chad-baldwin
