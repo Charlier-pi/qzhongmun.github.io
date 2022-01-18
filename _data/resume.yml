@@ -1,9 +1,8 @@
 theme: default
 header:
-  name: Chad Baldwin
-  suffix: MCSA
+  name: Qian Zhong
   display_contact_info: true
-  current_title: Senior Database Developer
+  current_title: Master of Computer Science
   intro: >
     Motivated and versatile software and database developer, MCSA certified in Database
     Development. Proficient in schema design, data normalization techniques and query/index tuning.
