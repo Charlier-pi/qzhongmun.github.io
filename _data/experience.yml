@@ -11,8 +11,6 @@
       - "Supervises students for examinations in Comp 2001 "
 
 - company: "Chengdu Yuanyin Wisdom Technology Co., Ltd"
-  logo: "/img/companylogos/aa.jpg"
-  url: "https://www.autoalert.com/"
   positions:
   - title: "Front-End Developer"
     startdate: 2020-12
