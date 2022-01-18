@@ -4,11 +4,12 @@ header:
   display_contact_info: true
   current_title: Master of Computer Science
   intro: >
-    Motivated and versatile software and database developer, MCSA certified in Database
-    Development. Proficient in schema design, data normalization techniques and query/index tuning.
-    Always looking for new challenges and new technologies to learn. Experienced with the software
-    development life cycle (SDLC) utilizing various project management methodologies including
-    Agile, Scrum and Kanban. Efficient working both independently and in a team environment.
+    •	Use Selenium for test automation
+    •	Design test plans and tests cases based on business requirements 
+    •	Two and half years working experience in the computer science field
+    •	Experience in Git, Burpsuit, Python, JavaScript, CSS, Html, Vue, React
+    •	Execute basic security tests, such as XSS, SQL Injection and Command Injection
+
 contact:
   #address: 6 Colville St,St. John's, NL CA A1E 3J8   
   #phone: +1(709) 219-6573
