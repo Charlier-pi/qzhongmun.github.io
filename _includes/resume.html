@@ -43,6 +43,7 @@
     <div class="header-contact-info">
       {%- for item in resume.contact -%}
         <span class="header-contact-info-item">{{ item[1] }}</span>
+      
           {%- if forloop.last -%}
           {%- else -%}
             <span> &bull; </span>
@@ -174,7 +175,7 @@
 
 {%- if resume.sections.recognition -%}
   <section class="content-section">
-    <header class="section-header"><h2>Recognition</h2></header>
+    <header class="section-header"><h2>Achievements</h2></header>
     {%- for recognition in site.data.recognitions -%}
       <div class="resume-item">
         <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
