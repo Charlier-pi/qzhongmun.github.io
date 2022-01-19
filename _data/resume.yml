@@ -20,7 +20,7 @@ sections:
   projects:     true
   skills:       true
   recognition:  true
-  associations: true
+  associations: false
   interests:    true
   links:        true
   social_links: false
