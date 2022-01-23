@@ -36,6 +36,23 @@
    concatenate((a,b), axis=None) //flatten the array and concatenate
    ```
 5. Append: add values to the <span style="color:red"> **end** </span> of a numpy array
+   ```
+   np.append(a, [2])
+   np.append(a, b)     // two lists add together
+   np.append(a, b, axis=0) // two arrays add together↓
+   np.append(a, b, axis=1) // two arrays add together→
+   ```
+6. Stacking: 
+   the hstack function is used to stack the sequence of input arrays horizontally (i.e., column wise) to make a single array
+   ```
+   np.hstack((a,b)) // it is like horizontal concatenation
+   np.concatenate((a,b), axis=1)
+   ```
+   the vstack function is used to stack the sequence of input arrays vertically (i.e., row wise) to make a single array.
+   ```
+   np.vstack((a,b)) // it is like horizontal concatenation
+   np.concatenate((a,b), axis=0)
+   ```
 
 # Matplotlib
 
