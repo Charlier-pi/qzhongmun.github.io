@@ -6,3 +6,41 @@
  3. Essential concepts will be asked regarding Numpy, Matplotlib, and Pandas 
  4. as well as interpretation of some simple plots (line, scatter, histograms, violin, and box plots).
 
+# Numpy
+
+1. A mask allows you to filter your data based on more complicated criteria.
+   A mask is an array with the same shape as your data, but instead of holding your values, it will hold boolean values.
+   ```
+   a=np.linspace(1,50,24, dtype=int).reshape(6,4)
+   mask= a % 4 == 0      //array hold boolean values
+   a[mask]               //list hold number in the arry matched mask
+   ```
+2. Transpose: every element's row and column indices are swapped
+   ```
+   a.T
+   a.transpose()
+   ```
+3. Sorting: specifies the way to arrange data in a particular order
+   ```
+   np.sort(a)
+   np.sort(a, axis=None) //flatten the array
+   np.sort(a, axis=0) // ↓ 
+   np.sort(a, axis=1) // →
+   
+   np.argsort(a) // display indexes array →
+   ```
+4. Concatenate: function can be used to concatenate two arrays either row-wise or column-wise
+   ```
+   concatenate((a,b)) //default axis=0 ↓ 
+   concatenate((a,b), axis=1) //→
+   concatenate((a,b), axis=None) //flatten the array and concatenate
+   ```
+5. Append: add values to the <span style="color:blue"> **end** </span> of a numpy array
+
+# Matplotlib
+
+# Pandas
+
+# Line, Scatter, Histograms
+
+# Violin, and Box Plots
