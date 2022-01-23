@@ -8,6 +8,57 @@
 
 # Numpy
 
+Basic Concepts:
+```
+▷ Numpy Array -> ndarray
+○ a grid of values
+○ all of the same type
+○ it is indexed by a tuple of nonnegative integers
+
+▷ Rank
+○ Number of dimensions
+a.ndim
+
+▷ Shape
+○ a tuple of integers giving the size of the array along each dimension
+a.shape
+
+import numpy as np
+
+# You can reshape your array dimensions using the reshape function
+d = b.reshape(3, 2)
+
+indexing: Positions in numpy arrays can be accessed or modified using nonnegative integers.
+a[0]
+a[0,0]     # 2Dimensional numpy array
+```
+Arange: This function creates an array within a range with regularly incrementing values.
+```
+a = np.arange(10) # [0 1 2 3 4 5 6 7 8 9]
+np.arange(2, 10, dtype=float) # [2. 3. 4. 5. 6. 7. 8. 9.]
+np.arange(2, 3, 0.1) #[2.  2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9]
+```
+Linspace: This function will create arrays with a specified number of elements, and spaced equally between the specified beginning and end values.
+```
+np.linspace(1,4,7) #start, stop, number of list :[1.,  1.5 ,2.,  2.5, 3.,  3.5, 4. ]
+```
+zeros, ones: Creates an array with the desired shape with all elements equal to 0 or 1, respectively.
+```
+np.zeros((2, 2)) 
+np.ones((5, ))   //[1., 1., 1., 1., 1.]
+```
+full, random: Creates an array with the desired shape with all elements equal to a specified value or randomly, respectively.
+```
+np.full((3, 2), 7)        //shape(3,2) full of 7                      
+np.random.random((2, 3))   //shape(2,3) with random number
+```
+slicing: provide parameters separated by a colon : (start:stop:step) directly to the array.
+```
+np.arange(9)  # [0 1 2 3 4 5 6 7 8]
+a[2:7:2]     # [2 4 6]
+a[2:8]       # [2 3 4 5 6 7]
+```
+
 1. A mask allows you to filter your data based on more complicated criteria.
    A mask is an array with the same shape as your data, but instead of holding your values, it will hold boolean values.
    ```
