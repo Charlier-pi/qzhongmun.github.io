@@ -53,6 +53,31 @@
    np.vstack((a,b)) // it is like horizontal concatenation
    np.concatenate((a,b), axis=0)
    ```
+7. Union: the **union1d** function returns a unique and sorted array with values that are in the both of two input arrays
+   ```
+   np.union1d(a,b)  //a, b can be different shape of array, output is a list
+   ```
+8. Aggregation: standard deviation, variance, argmin, argmax, percentile, cumprod, cumsum, and corrcoef
+   
+   min returns the min of a numpy array
+   
+   argmin returns the min index of a numpy array
+   
+   mean(average) compute the arithmetic mean along the specified axis
+   
+   std calculates the standard deviation
+   
+   sum of array elements over a given axis
+   ```
+   a.min()              // output is one min number
+   a.min(axis=0)       //↓ a is array output is mix number list
+   a.argmin(axis=0).   //↓ a is array output is index list
+   
+   np.mean(a)
+   np.mean(a, axis=0)
+   np.mean(a, axis=1)
+   ```
+
 
 # Matplotlib
 
