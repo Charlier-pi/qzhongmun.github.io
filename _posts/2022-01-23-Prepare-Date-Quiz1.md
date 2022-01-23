@@ -63,7 +63,19 @@ a[1:2]  # gets second row only[[3 4 5]]
 a[:,-1] # gets the last column [2 5 8]
 a[:,-2] # gets the second last column [1 4 7]
 a[a > 2]  # [3 4 5 6 7 8]
-a[::2,-1:] # [[2],[8]]
+a[::2,-1:] # [[2],[8]]  [↓,→]
+```
+Broadcasting: Two dimensions are compatible when:■ they are equal, or■ one of them is 1
+```
+a = np.array([[ 0.0,  0.0,  0.0],
+           [10.0, 10.0, 10.0],
+           [20.0, 20.0, 20.0],
+           [30.0, 30.0, 30.0]])
+           
+b = np.array([1.0, 2.0, 3.0])
+print(f'a + b = {a + b}')           # yes
+b = np.array([1.0, 2.0, 3.0, 4.])
+print(f'a + b = {a + b}')           # No
 ```
 
 1. A mask allows you to filter your data based on more complicated criteria.
