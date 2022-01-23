@@ -35,7 +35,7 @@
    concatenate((a,b), axis=1) //→
    concatenate((a,b), axis=None) //flatten the array and concatenate
    ```
-5. Append: add values to the <span style="color:blue"> **end** </span> of a numpy array
+5. Append: add values to the <span style="color:red"> **end** </span> of a numpy array
 
 # Matplotlib
 
