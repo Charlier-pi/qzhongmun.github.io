@@ -52,11 +52,18 @@ full, random: Creates an array with the desired shape with all elements equal to
 np.full((3, 2), 7)        //shape(3,2) full of 7                      
 np.random.random((2, 3))   //shape(2,3) with random number
 ```
-slicing: provide parameters separated by a colon : (start:stop:step) directly to the array.
+slicing: to slice a numpy array, provide parameters separated by a colon : (start:stop:step) directly to the array.
 ```
 np.arange(9)  # [0 1 2 3 4 5 6 7 8]
 a[2:7:2]     # [2 4 6]
 a[2:8]       # [2 3 4 5 6 7]
+
+a = a.reshape(3,3)   # [[0 1 2],[3 4 5],[6 7 8]]
+a[1:2]  # gets second row only[[3 4 5]]
+a[:,-1] # gets the last column [2 5 8]
+a[:,-2] # gets the second last column [1 4 7]
+a[a > 2]  # [3 4 5 6 7 8]
+a[::2,-1:] # [[2],[8]]
 ```
 
 1. A mask allows you to filter your data based on more complicated criteria.
