@@ -41,6 +41,12 @@ np.arange(2, 3, 0.1) #[2.  2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9]
 Linspace: This function will create arrays with a specified number of elements, and spaced equally between the specified beginning and end values.
 ```
 np.linspace(1,4,7) #start, stop, number of list :[1.,  1.5 ,2.,  2.5, 3.,  3.5, 4. ]
+
+np.arange(10,30,5)
+np.linspace(10,30,5)
+
+[10 15 20 25]
+[10. 15. 20. 25. 30.]
 ```
 zeros, ones: Creates an array with the desired shape with all elements equal to 0 or 1, respectively.
 ```
