@@ -159,6 +159,9 @@ print(f'a + b = {a + b}')           # No
 
 # Pandas
 
+loc is label-based, which means that you have to specify rows and columns based on their row and column labels. 
+iloc is integer position-based, so you have to specify rows and columns by their integer position values (0-based integer position).
+
 # Line, Scatter, Histograms
 
 # Violin, and Box Plots
