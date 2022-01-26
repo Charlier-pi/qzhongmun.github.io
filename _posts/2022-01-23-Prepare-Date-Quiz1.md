@@ -164,4 +164,10 @@ iloc is integer position-based, so you have to specify rows and columns by their
 
 # Line, Scatter, Histograms
 
-# Violin, and Box Plots
+# Violin
+
+On each side of the gray line is a kernel density estimation to show the distribution shape of the data. Wider sections of the violin plot represent a higher probability that members of the population will take on the given value; the skinnier sections represent a lower probability.
+
+# Box Plots
+
+
