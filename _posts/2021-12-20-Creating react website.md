@@ -12,3 +12,4 @@ host by github accout: https://vercel.com/new
 
 ----------------------------------------------------------------------------------------------------------------
 npx create-react-app@latest my_app --use-npm
+npx create-react-native-app@latest my_app1 --use-npm
