@@ -13,3 +13,9 @@ Unstable pair.	Hospital h and student s form an unstable pair if both:
 
 perfect matching only if the number of h = the number of s
 
+perfect matching may not be stable matching
+
+Stable matching: perfect matching with stable pairs
+
+
+
