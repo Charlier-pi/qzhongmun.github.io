@@ -26,8 +26,6 @@ An intuitive method that guarantees to find a stable matching.
 The Gale–Shapley algorithm guarantees  to find a stable matching for any problem instance.
 all executions of Gale–Shapley lead to the same stable matching
 
-ppt2-page16: it should be h–s is unstable.
-
 How many rounds will Gale-Shapley take in the worst case for n hospitals and n students? What does the worst case look like? 
 n*(n-1)+1
 
@@ -47,6 +45,21 @@ S = { A-X, B-Y, C-Z}      and S′ = { A-Y, B-X, C-Z}
 * Both X and Y are valid partners for A.   if A prefer X, then X is best valid partner
 * Both X and Y are valid partners for B.   if B prefer X, then X is best valid partner
 * Z is the only valid partner for C.       C's best valid partner is Z
+
+
+Hospital-optimal assignment: Each hospital receives best valid partner.
+All executions of Gale–Shapley yield hospital-optimal assignment
+Hospital-optimal assignment is a stable matching
+
+Stable matching < perfect matching
+ppt2-page16: it should be h–s is unstable.
+ppt3-page14: h’ – s not in M.
+
+Q.	Does hospital-optimality come at the expense of the students?
+A.	Yes.
+
+
+
 
 
 
