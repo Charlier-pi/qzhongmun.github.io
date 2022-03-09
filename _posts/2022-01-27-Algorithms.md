@@ -28,6 +28,29 @@ all executions of Gale–Shapley lead to the same stable matching
 
 ppt2-page16: it should be h–s is unstable.
 
+How many rounds will Gale-Shapley take in the worst case for n hospitals and n students? What does the worst case look like? 
+n*(n-1)+1
+
+0 1 2 3      0 1 2 3
+A X Y Z      X B C A
+B Y X Z      Y C A B
+C X Y Z      Z A B C
+
+3*2+1=7
+
+all executions of Gale–Shapley lead to the same stable matching, even though an instance can have several stable matchings  and the algorithm is nondeterministic
+
+Def.Student s is a valid partner for hospital h if there exists any stable  matching in which h and s are matched.
+For Example:
+all stable matchings in those two arraies:	
+S = { A-X, B-Y, C-Z}      and S′ = { A-Y, B-X, C-Z}
+* Both X and Y are valid partners for A.   if A prefer X, then X is best valid partner
+* Both X and Y are valid partners for B.   if B prefer X, then X is best valid partner
+* Z is the only valid partner for C.       C's best valid partner is Z
+
+
+
+
 
 
 
