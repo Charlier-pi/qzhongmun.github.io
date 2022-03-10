@@ -52,12 +52,22 @@ All executions of Gale–Shapley yield hospital-optimal assignment
 Hospital-optimal assignment is a stable matching
 
 Stable matching < perfect matching
-ppt2-page16: it should be h–s is unstable.
-ppt3-page14: h’ – s not in M.
+ppt2-page16: it should be h–s is unstable.?
+ppt3-page14: h’ – s not in M.?
+ppt3-page15: By hospital-optimality, s is the best valid partner for h. is should be :s' is the best valid partner for h. ?
+ppt9-page23: wrong, it is at least
 
 Q.	Does hospital-optimality come at the expense of the students?
 A.	Yes.
 
+Kosaraju algorithm:
+1. Find SCC (strongly connected components)
+2. Implement by DFS or BFS
+
+Def of SCC: every vertex can reach to every other vertex.
+https://www.youtube.com/watch?v=Rs6DXyWpWrI
+
+Greedy Algrithms:
 
 
 
