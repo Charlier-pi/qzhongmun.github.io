@@ -52,10 +52,6 @@ All executions of Gale–Shapley yield hospital-optimal assignment
 Hospital-optimal assignment is a stable matching
 
 Stable matching < perfect matching
-ppt2-page16: it should be h–s is unstable.?
-ppt3-page14: h’ – s not in M.?
-ppt3-page15: By hospital-optimality, s is the best valid partner for h. is should be :s' is the best valid partner for h. ?
-ppt9-page23: wrong, it is at least
 
 Q.	Does hospital-optimality come at the expense of the students?
 A.	Yes.
@@ -68,6 +64,13 @@ Def of SCC: every vertex can reach to every other vertex.
 https://www.youtube.com/watch?v=Rs6DXyWpWrI
 
 Greedy Algrithms:
+
+ppt2-page16: it should be h–s is unstable.?
+ppt3-page14: h’ – s not in M.?
+ppt3-page15: By hospital-optimality, s is the best valid partner for h. is should be :s' is the best valid partner for h. ?
+ppt9-page10: Solution format:   A set of cookies. Eg, {b,e, f}  it is confusion, it should be Eg, {d, f}
+ppt9-page13: Solution format:  𝑆⊆{1,…, 𝑛} it should be 𝑆⊆{1,…,k}
+
 
 
 
