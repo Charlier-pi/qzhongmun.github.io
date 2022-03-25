@@ -72,7 +72,10 @@ ppt9-page10: Solution format:   A set of cookies. Eg, {b,e, f}  it is confusion,
 ppt9-page13: Solution format:  𝑆⊆{1,…, 𝑛} it should be 𝑆⊆{1,…,k}
 
 
+------------------------------------------------------------------------------------------------------------------------------
 
+log A + log B = log AB
+log A − log B = log A/B
 
 
 
