@@ -38,6 +38,7 @@ f()  //[0,1,8,27,64,...,729]
 def countdown():
   yield 5
   yield 4
+  print(1)
   yield 2
   yield 0
 g = countdown()
@@ -148,72 +149,76 @@ class ElementaryParticle(Particle):
  p = ElementaryParticle(1,m_e,r_e,spin)
  print(p.s)      //1.5
  p.hear_me()  // I am ...
- 
- def add_fs_particle(cls):
+ ----------------------------
+ def add_is_particle(cls):
     cls.is_particle = True
     return cls
- @add_is_particle
- class Particle(object):
-  """A particle ...
-  c: charge
-  m: mass
-  r: position"""
+@add_is_particle
+class Particle(object):
+  #"""A particle ...
+  #c: charge
+  #m: mass
+  #r: position"""
   
-  roar = " I am a particle "
-  def __init__(self,charge,mass,position):
-    self.c = charge
-    self.m = mass
-    self.r =position
+    roar = "I am a particle"
+    def __init__(self,charge,mass,position):
+        self.c = charge
+        self.m = mass
+        self.r =position
     
-  def hear_me(self):
-     myroar = self.roar + ("My charge is :" + str(self.c) + "My mass is:" + str(self.m) + "My x position is :" + str(self.r[x]))
-     print(myroar)
-  def delta_x_min(self, delta_p_x):
-      hbar = constants.hbar
-      delx_min = hbar / (3.0 * delta_p_x)
-      return delx_min
-  def possible_flavors():
-      return ["up","down","top","bottom"]
+    def hear_me(self):
+        myroar = self.roar + ("My charge is :" + str(self.c) + "My mass is:" + str(self.m) + "My x position is :" + str(self.r[x]))
+        print(myroar)
+    def delta_x_min(self, delta_p_x):
+        hbar = constants.hbar
+        delx_min = hbar / (3.0 * delta_p_x)
+        return delx_min
+    def possible_flavors():
+        return ["up","down","top","bottom"]
 
-Particle.is_particle //true
+Particle.is_particle  //true
 --------------------------
 from math import sqrt
+from scipy import constants
+
 def add_distance(cls):
     def distance(self,other):
         d2 = 0.0
         for axis in ["x","y","z"]:
-            d2 + = (self.r[axis]-other.r[axis])**2
+            d2 += (self.r[axis]-other.r[axis])**2
         d = sqrt(d2)
         return d
-     cls.distance = distance
-     return cls
+    cls.distance = distance
+    return cls
+     
 @add_distance
 class Particle(object):
-  """A particle ...
-  c: charge
-  m: mass
-  r: position"""
+  #'''A particle ...
+  #c: charge
+  #m: mass
+  #r: position'''
   
-  roar = " I am a particle "
-  def __init__(self,charge,mass,position):
-    self.c = charge
-    self.m = mass
-    self.r =position
+    roar = " I am a particle "
+    def __init__(self,charge,mass,position):
+        self.c = charge
+        self.m = mass
+        self.r =position
     
-  def hear_me(self):
-     myroar = self.roar + ("My charge is :" + str(self.c) + "My mass is:" + str(self.m) + "My x position is :" + str(self.r[x]))
-     print(myroar)
-  def delta_x_min(self, delta_p_x):
-      hbar = constants.hbar
-      delx_min = hbar / (3.0 * delta_p_x)
-      return delx_min
-  def possible_flavors():
-      return ["up","down","top","bottom"]
- m_e = constants.m_e
- m_p = constants.m_p
- r_p = {"x":0,"y":0,"z":0}
- r_e = {"x":0,"y":10,"z":40}
- p1 = Particle(1.m_p,r_p)
- p2 = Particle(11,m_e,r_e)
- p1.distance(p2)       //42.426...
+    def hear_me(self):
+        myroar = self.roar + ("My charge is :" + str(self.c) + "My mass is:" + str(self.m) + "My x position is :" + str(self.r[x]))
+        print(myroar)
+    def delta_x_min(self, delta_p_x):
+        hbar = constants.hbar
+        delx_min = hbar / (3.0 * delta_p_x)
+        return delx_min
+    def possible_flavors():
+        return ["up","down","top","bottom"]
+      
+m_e = constants.m_e
+m_p = constants.m_p
+r_p = {"x":0,"y":0,"z":0}
+r_e = {"x":0,"y":10,"z":40}
+p1 = Particle(1,m_p,r_p)
+p2 = Particle(11,m_e,r_e)
+p1.distance(p2)   // 41.23105625617661
 ```
