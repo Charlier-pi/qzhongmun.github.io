@@ -1,5 +1,7 @@
-Here you can say lots of fun things about your site.
+Hi, It is Qian
 
-Maybe say a some things about yourself.
+Welcome to my channel
 
-Or maybe what you plan to blog about.
+I am Master of Computer Science international student of Memorial University. I am seeking a intership from September 2022 to December 2022, for four month. I experienced React, Javascript, Python, CSS, HTML, SQL, Design Pattern, Algrithm. Hope I can join one of your great team!
+
+Below shows my notes, hope you can learn something new
