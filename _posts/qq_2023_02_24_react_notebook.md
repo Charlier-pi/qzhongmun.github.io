@@ -554,6 +554,16 @@ add files: App.css, App.js, index.js
 ---
 
 Git:
+
+git init
+git remote add origin [url]
+git fetch origin main
+git checkout -b main origin/main
+# Make changes
+git add .
+git commit -m 'your message'
+git push origin main
+
 git init
 git remote add origin url
 git pull origin main
